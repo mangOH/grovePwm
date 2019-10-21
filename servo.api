@@ -1,0 +1,5 @@
+FUNCTION SetAngle
+(
+    uint8 servo IN, ///< Servo number (1-16)
+    uint16 angle IN ///< Angle to set the servo to, in degrees (0 - 180)
+);

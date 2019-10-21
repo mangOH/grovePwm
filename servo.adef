@@ -1,0 +1,18 @@
+executables:
+{
+    servo = ( pwmDriverComponent dhubServo )
+}
+
+processes:
+{
+    run:
+    {
+        ( servo )
+    }
+}
+
+bindings:
+{
+    servo.dhubServo.io -> dataHub.io
+}
+

@@ -1,0 +1,19 @@
+sources:
+{
+    main.c
+}
+
+requires:
+{
+    api:
+    {
+        io.api
+        servo.api [types-only]
+    }
+
+    component:
+    {
+        pwmDriverComponent
+    }
+}
+
