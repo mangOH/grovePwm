@@ -7,7 +7,7 @@ provides:
 {
     api:
     {
-        servo.api
+        $CURDIR/../servo.api
     }
 }
 

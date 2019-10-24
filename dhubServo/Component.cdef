@@ -8,12 +8,12 @@ requires:
     api:
     {
         io.api
-        servo.api [types-only]
+        $CURDIR/../servo.api [types-only]
     }
 
     component:
     {
-        pwmDriverComponent
+        $CURDIR/../pwmDriverComponent
     }
 }
 
